@@ -52,3 +52,6 @@ work log my progress of monitoring project.
     - AIN0 connected to Hall-sensor *Vout*
     - AIN1 connected to *0.5 Vdd*, to provide comparison for Hall-sensor (resistive voltage divider, *R1,R2 = 12kOhm*)
 - Tested current sensor by measuring current of 3W led
+- **Problem**: ADC seems accurate but Hall-sensor output doesn't seem to be exactly *0.5 Vdd* when there is no load
+    - Read that e.g. earths magnetic field might affect sensor
+    - Some kind of calibration is required. Automatic calibration should be possible if I can identify when there is no load...
