@@ -1,0 +1,16 @@
+{
+  "name": "solar-power-battery-monitoring",
+  "version": "0.0.0",
+  "description": "Tessel project to monitor battery load status using Hall-effect sensor",
+  "main": "index.js",
+  "author": "Juho Teperi",
+  "license": "MIT",
+  "hardware": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Deraen/solar-power-battery-monitoring.git"
+  },
+  "dependencies": {
+    "adc-ads1x15": "git+https://github.com/Deraen/adc-ads1x15.git"
+  }
+}
